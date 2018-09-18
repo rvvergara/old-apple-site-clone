@@ -4,4 +4,4 @@
 
 Contributors are : [Ryan](https://github.com/rvvergara) & [Dipto](https://github.com/dipto0321)
 
-Current [demo](https://rawgit.com/rvvergara/old-apple-site-clone/master/index.html)
+Current [demo](https://rawgit.com/rvvergara/old-apple-site-clone/dev-version/index.html)
