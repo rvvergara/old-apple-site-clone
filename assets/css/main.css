@@ -1,42 +1,44 @@
 body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 header {
-  border: 1px solid black;
-  width: 100%;
-  height: 538px;
-  background: #fff url("../images/mountaineer.jpg") 50% 90% no-repeat;
-  background-size: cover;
-  /* position: relative; */
+    border: 1px solid black;
+    width: 102%;
+    height: 538px;
+    background: #fff url("../images/mountaineer.jpg") 50% 102% no-repeat;
+    background-size: cover;
+    /* position: relative; */
 }
-.main-nav {
-}
+
+.main-nav {}
+
 .header-contents {
-  height: 235px;
-  /* border: 1px solid blue; */
-  position: relative;
-  top: 190px;
+    height: 235px;
+    /* border: 1px solid blue; */
+    position: relative;
+    top: 190px;
 }
 
 .verse-title {
-  width: 100%;
-  height: 100px;
-  background: url("../images/your_verse_title_small.png") 50% 10% no-repeat;
+    width: 100%;
+    height: 100px;
+    background: url("../images/your_verse_title_small.png") 50% 10% no-repeat;
 }
 
 .verse-text {
-  width: 100%;
-  height: 82px;
-  background: url("../images/everyone.png") 50% 50% no-repeat;
+    width: 100%;
+    height: 82px;
+    background: url("../images/everyone.png") 50% 50% no-repeat;
 }
+
 .verse-watch {
-  width: 100%;
-  height: 34px;
-  background: url("../images/watch.png") 50% 0% no-repeat;
+    width: 100%;
+    height: 34px;
+    background: url("../images/watch.png") 50% 0% no-repeat;
 }
 
 .verse-watch:hover {
-  background-position-y: 100%;
+    background-position-y: 100%;
 }
