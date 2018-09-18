@@ -16,7 +16,9 @@ header {
 
 .header-contents {
     height: 235px;
-    position: relative;
+    <<<<<<< HEAD=======
+    /* border: 1px solid blue; */
+    >>>>>>>0576c094b925b0bb941be3996e41599f793fdead position: relative;
     top: 190px;
 }
 
@@ -40,6 +42,7 @@ header {
 
 .verse-watch:hover {
     background-position-y: 100%;
+    <<<<<<< HEAD
 }
 
 .main-nav {
@@ -68,3 +71,7 @@ header {
 /* #brand {
     background: url('../images/globalnav_text.svg') no-repeat -2% 0%;
 } */
+=======
+}
+
+>>>>>>>0576c094b925b0bb941be3996e41599f793fdead
