@@ -41,3 +41,30 @@ header {
 .verse-watch:hover {
     background-position-y: 100%;
 }
+
+.main-nav {
+    height: 36px;
+    width: 980px;
+    border: 1px solid red;
+    background: black;
+    position: relative;
+    top: 20px;
+    margin: 0 auto;
+    border-radius: 4px;
+
+
+}
+
+.main-nav li {
+    display: inline-block;
+    border-right: 1px solid white;
+    width: 104px;
+}
+
+.main-nav li a {
+    color: rgba(0, 0, 0, 0);
+}
+
+/* #brand {
+    background: url('../images/globalnav_text.svg') no-repeat -2% 0%;
+} */
