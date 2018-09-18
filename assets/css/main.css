@@ -1,128 +1,112 @@
 body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 header {
-  border: 1px solid black;
-  width: 100%;
-  height: 538px;
-  background: #fff url("../images/mountaineer.jpg") 50% 100% no-repeat;
-  background-size: cover;
-  /* position: relative; */
+    border: 1px solid black;
+    width: 100%;
+    height: 538px;
+    background: #fff url("../images/mountaineer.jpg") 50% 100% no-repeat;
+    background-size: cover;
+    /* position: relative; */
 }
 
-.main-nav {
-}
+.main-nav {}
 
 .header-contents {
-  height: 235px;
-  /* border: 1px solid blue; */
-  position: relative;
-  top: 190px;
+    height: 235px;
+    /* border: 1px solid blue; */
+    position: relative;
+    top: 190px;
 }
 
 .verse-title {
-  width: 100%;
-  height: 100px;
-  background: url("../images/your_verse_title_small.png") 50% 10% no-repeat;
+    width: 100%;
+    height: 100px;
+    background: url("../images/your_verse_title_small.png") 50% 10% no-repeat;
 }
 
 .verse-text {
-  width: 100%;
-  height: 82px;
-  background: url("../images/everyone.png") 50% 50% no-repeat;
+    width: 100%;
+    height: 82px;
+    background: url("../images/everyone.png") 50% 50% no-repeat;
 }
 
 .verse-watch {
-  width: 100%;
-  height: 34px;
-  background: url("../images/watch.png") 50% 0% no-repeat;
+    width: 100%;
+    height: 34px;
+    background: url("../images/watch.png") 50% 0% no-repeat;
 }
 
 .verse-watch:hover {
-  background-position-y: 100%;
+    background-position-y: 100%;
 }
 
 .main-nav {
-  /* height: 36px; */
-  width: 70%;
-  border: 1px solid red;
-  background: -webkit-gradient(
-    linear,
-    lefttop,
-    leftbottom,
-    color-stop(0%, rgb(126, 198, 234)),
-    color-stop(24%, rgb(70, 179, 234)),
-    color-stop(100%, rgb(3, 135, 201))
-  );
-  background: -webkit-linear-gradient(
-    top,
-    rgb(126, 198, 234) 0%,
-    rgb(70, 179, 234) 45%,
-    rgb(3, 135, 201) 100%
-  );
-  background: -moz-linear-gradient(
-    top,
-    rgb(126, 198, 234) 0%,
-    rgb(70, 179, 234) 45%,
-    rgb(3, 135, 201) 100%
-  );
-  background: linear-gradient(
-    top,
-    rgb(126, 198, 234) 0%,
-    rgb(70, 179, 234) 45%,
-    rgb(3, 135, 201) 100%
-  );
-  position: relative;
-  top: 20px;
-  margin: 0 auto;
-  border-radius: 4px;
+    /* height: 36px; */
+    width: 980px;
+    border: 1px solid #7b7b7b;
+    background: linear-gradient(#828282, #505050, #717171);
+    position: relative;
+    top: 20px;
+    margin: 0 auto;
+    border-radius: 4px;
 }
+
 .main-nav ul {
-  height: 100%;
-  /* background: yellow; */
+    height: 100%;
 }
 
 .main-nav li {
-  display: inline-block;
-  border: 1px solid red;
-  /* border-right: 1px solid white; */
-  width: 104px;
-  /* background: #fff; */
-  height: 36px;
+    display: inline-block;
+    border-right: 1px solid #4c4c4c;
+    width: 100px;
+    height: 32px;
 }
-#search-box {
-  width: 150px;
-  background: #fff;
+
+
+
+input {
+    width: 105px;
+    border-radius: 12px;
+    background: linear-gradient(#828282, #717171, #505050);
+    outline: none;
+    border: 0px;
 }
 
 .main-nav li a {
-  /* color: rgba(0, 0, 0, 0); */
+    /* color: rgba(0, 0, 0, 0); */
 }
 
 #brand {
-  background: url("../images/globalnav_text.svg") no-repeat 50% -1%;
+    background: url("../images/globalnav_text.svg") no-repeat 50% -1%;
 }
 
 #item-1 {
-  background: url("../images/globalnav_text.svg") no-repeat 50% 12%;
+    background: url("../images/globalnav_text.svg") no-repeat 50% 12%;
 }
+
 #item-2 {
-  background: url("../images/globalnav_text.svg") no-repeat 50% 27%;
+    background: url("../images/globalnav_text.svg") no-repeat 50% 27%;
 }
+
 #item-3 {
-  background: url("../images/globalnav_text.svg") no-repeat 50% 41%;
+    background: url("../images/globalnav_text.svg") no-repeat 50% 41%;
 }
+
 #item-4 {
-  background: url("../images/globalnav_text.svg") no-repeat 50% 56%;
+    background: url("../images/globalnav_text.svg") no-repeat 50% 56%;
 }
+
 #item-5 {
-  background: url("../images/globalnav_text.svg") no-repeat 50% 71%;
+    background: url("../images/globalnav_text.svg") no-repeat 50% 71%;
 }
+
 #item-6 {
-  background: url("../images/globalnav_text.svg") no-repeat 50% 86%;
+    background: url("../images/globalnav_text.svg") no-repeat 50% 86%;
 }
+
 #item-7 {
-  background: url("../images/globalnav_text.svg") no-repeat 50% 100%;
+    background: url("../images/globalnav_text.svg") no-repeat 50% 100%;
 }
