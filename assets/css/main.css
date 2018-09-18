@@ -1,77 +1,70 @@
 body {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 header {
-    border: 1px solid black;
-    width: 100%;
-    height: 538px;
-    background: #fff url("../images/mountaineer.jpg") 50% 100% no-repeat;
-    background-size: cover;
-    /* position: relative; */
-}
-
-.main-nav {}
-
-.header-contents {
-    height: 235px;
-    <<<<<<< HEAD=======
-    /* border: 1px solid blue; */
-    >>>>>>>0576c094b925b0bb941be3996e41599f793fdead position: relative;
-    top: 190px;
-}
-
-.verse-title {
-    width: 100%;
-    height: 100px;
-    background: url("../images/your_verse_title_small.png") 50% 10% no-repeat;
-}
-
-.verse-text {
-    width: 100%;
-    height: 82px;
-    background: url("../images/everyone.png") 50% 50% no-repeat;
-}
-
-.verse-watch {
-    width: 100%;
-    height: 34px;
-    background: url("../images/watch.png") 50% 0% no-repeat;
-}
-
-.verse-watch:hover {
-    background-position-y: 100%;
-    <<<<<<< HEAD
+  border: 1px solid black;
+  width: 100%;
+  height: 538px;
+  background: #fff url("../images/mountaineer.jpg") 50% 100% no-repeat;
+  background-size: cover;
+  /* position: relative; */
 }
 
 .main-nav {
-    height: 36px;
-    width: 980px;
-    border: 1px solid red;
-    background: black;
-    position: relative;
-    top: 20px;
-    margin: 0 auto;
-    border-radius: 4px;
+}
 
+.header-contents {
+  height: 235px;
+  /* border: 1px solid blue; */
+  position: relative;
+  top: 190px;
+}
 
+.verse-title {
+  width: 100%;
+  height: 100px;
+  background: url("../images/your_verse_title_small.png") 50% 10% no-repeat;
+}
+
+.verse-text {
+  width: 100%;
+  height: 82px;
+  background: url("../images/everyone.png") 50% 50% no-repeat;
+}
+
+.verse-watch {
+  width: 100%;
+  height: 34px;
+  background: url("../images/watch.png") 50% 0% no-repeat;
+}
+
+.verse-watch:hover {
+  background-position-y: 100%;
+}
+
+.main-nav {
+  height: 36px;
+  width: 980px;
+  border: 1px solid red;
+  background: black;
+  position: relative;
+  top: 20px;
+  margin: 0 auto;
+  border-radius: 4px;
 }
 
 .main-nav li {
-    display: inline-block;
-    border-right: 1px solid white;
-    width: 104px;
+  display: inline-block;
+  border-right: 1px solid white;
+  width: 104px;
 }
 
 .main-nav li a {
-    color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
 }
 
 /* #brand {
     background: url('../images/globalnav_text.svg') no-repeat -2% 0%;
 } */
-=======
-}
-
->>>>>>>0576c094b925b0bb941be3996e41599f793fdead
