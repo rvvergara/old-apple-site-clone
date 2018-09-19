@@ -155,3 +155,23 @@ header {
   width: 102%;
 }
 /*Footer Style*/
+.main-footer {
+  min-width: 980px;
+  width: 100%;
+  /* height: 90px; */
+  color: #6e6e6e;
+  font-size: 0.8334em;
+  line-height: 1.2;
+  text-align: center;
+  border: 1px solid red;
+}
+.footer-top-content {
+  float: left;
+  clear: both;
+}
+.footer-top-nav {
+  float: right;
+}
+.footer-top-nav li {
+  display: inline;
+}
