@@ -16,13 +16,26 @@ header {
 .header-contents {
   height: 235px;
   position: relative;
-  top: 190px;
+  top: 160px;
+  left: 10px;
 }
 
 .verse-title {
   width: 100%;
   height: 100px;
   background: url("../images/your_verse_title_small.png") 50% 10% no-repeat;
+}
+
+.verse-title a,
+.verse-text a,
+.verse-watch a {
+  display: inline-block;
+  width: 100%;
+  height: 64px;
+  position: relative;
+  /* left: 353px; */
+  top: 20px;
+  opacity: 0;
 }
 
 .verse-text {
@@ -34,6 +47,7 @@ header {
 .verse-watch {
   width: 100%;
   height: 34px;
+  margin-top: 30px;
   background: url("../images/watch.png") 50% 0% no-repeat;
 }
 
