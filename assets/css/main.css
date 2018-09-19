@@ -2,6 +2,8 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   overflow-x: hidden;
+  width: 95%;
+  margin: 0 auto;
 }
 
 header {
@@ -155,7 +157,8 @@ header {
   width: 99.5%;
 }
 .categories:last-child img {
-  width: 102%;
+  width: 364px;
+  height: 198px;
 }
 /*Footer Style*/
 .main-footer {
@@ -165,7 +168,8 @@ header {
   color: #6e6e6e;
   font-size: 10px;
   line-height: 12px;
-  text-align: center; /* border: 1px solid red; */
+  text-align: center;
+  /* border: 1px solid red; */
 }
 .footer-top {
   margin: 10px auto 0 auto;
