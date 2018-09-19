@@ -45,67 +45,58 @@ header {
 }
 
 .main-nav {
-  /* height: 36px; */
   width: 980px;
   border: 1px solid #7b7b7b;
-  background: linear-gradient(#828282, #505050, #717171);
+  background: linear-gradient(
+    #828282 10%,
+    #505050 50%,
+    #555555 60%,
+    #707070 80%
+  );
   position: relative;
   top: 20px;
   margin: 0 auto;
   border-radius: 4px;
 }
-
 .main-nav ul {
   height: 100%;
 }
-
 .main-nav li {
   display: inline-block;
   border-right: 1px solid #4c4c4c;
   width: 100px;
   height: 32px;
 }
-
 .main-nav li a {
   /* color: rgba(0, 0, 0, 0); */
 }
-
 #brand {
   background: url("../images/globalnav_text.svg") no-repeat 50% -1%;
 }
-
 #brand:hover {
   background-color: linear-gradient(#505050, #828282, #505050);
 }
-
 #item-1 {
   background: url("../images/globalnav_text.svg") no-repeat 50% 12%;
 }
-
 #item-2 {
   background: url("../images/globalnav_text.svg") no-repeat 50% 27%;
 }
-
 #item-3 {
   background: url("../images/globalnav_text.svg") no-repeat 50% 41%;
 }
-
 #item-4 {
   background: url("../images/globalnav_text.svg") no-repeat 50% 56%;
 }
-
 #item-5 {
   background: url("../images/globalnav_text.svg") no-repeat 50% 71%;
 }
-
 #item-6 {
   background: url("../images/globalnav_text.svg") no-repeat 50% 86%;
 }
-
 #item-7 {
   background: url("../images/globalnav_text.svg") no-repeat 50% 100%;
 }
-
 #search-box {
   border-right: none;
   position: relative;
@@ -115,11 +106,16 @@ header {
   /* width: 110px; */
   /* border-radius: 12px; */
 }
-
 #search-box input {
   width: 85px;
   height: 21px;
-  background: linear-gradient(#828282, #717171, #505050);
+  /* background: linear-gradient(#828282, #717171, #505050); */
+  background: linear-gradient(
+    #828282 10%,
+    #505050 50%,
+    #555555 60%,
+    #707070 80%
+  );
   outline: none;
   border: 0px;
   border-top-right-radius: 12px;
@@ -131,7 +127,13 @@ header {
 }
 #search-box i {
   color: #fff;
-  background: linear-gradient(#828282, #717171, #505050);
+  /* background: linear-gradient(#828282, #717171, #505050); */
+  background: linear-gradient(
+    #828282 10%,
+    #505050 50%,
+    #555555 60%,
+    #707070 80%
+  );
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px;
   font-size: 13px;
@@ -142,28 +144,22 @@ header {
   height: 15px;
   z-index: 5;
 }
-
 /* Categories styles */
-
 .categories {
   float: left;
   width: 25%;
   margin-right: 2px;
   margin-top: 2px;
 }
-
 .categories:first-child {
   margin-left: -1px;
 }
-
 .categories:last-child {
   margin-left: -8px;
 }
-
 .categories img {
   width: 99.5%;
 }
-
 .categories:last-child img {
   width: 102%;
 }
