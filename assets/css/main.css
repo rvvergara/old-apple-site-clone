@@ -136,6 +136,9 @@ header {
   z-index: 5;
 }
 /* Categories styles */
+.categories-box {
+  height: 200px;
+}
 .categories {
   float: left;
   width: 25%;
@@ -158,7 +161,7 @@ header {
 .main-footer {
   min-width: 980px;
   width: 100%;
-  /* height: 90px; */
+  height: 90px;
   color: #6e6e6e;
   font-size: 0.8334em;
   line-height: 1.2;
