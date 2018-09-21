@@ -6,4 +6,4 @@
 
 <p>It also employs an old way of positioning elements in CSS - floats and <code>position:absolute/relative</code></p>
 
-<strong><a href="https://rawgit.com/rvvergara/old-apple-site-clone/dev-version/index.html">Live Demo</a></strong>
+<strong><a href="https://rawgit.com/rvvergara/old-apple-site-clone/master/index.html">Live Demo</a></strong>
