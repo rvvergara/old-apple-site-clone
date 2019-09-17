@@ -1,9 +1,9 @@
-<h1>Apple Clone (old site version)</h1>
+# Apple Clone (old site version)
 
-<h3>by <a href="https://github.com/rvvergara">Ryan</a> and <a href="https://github.com/dipto0321"></a></h3>
+by [Ryan](https://github.com/rvvergara) and [Dipto](https://github.com/dipto0321)
 
 <p>This project showcases the use of background image and linear gradients.</p>
 
-<p>It also employs positioning of elements in CSS using floats and <code>position:absolute/relative</code></p>
+It also employs positioning of elements in CSS using floats and `position:absolute/relative`
 
-<strong><a href="https://rawgit.com/rvvergara/old-apple-site-clone/master/index.html">Live Demo</a></strong>
+[Live Demo](https://rawgit.com/rvvergara/old-apple-site-clone/master/index.html)
